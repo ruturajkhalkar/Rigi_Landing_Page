@@ -4,11 +4,128 @@
    }
    .main{
     background-color: black;
-   
-    margin:0px 25px;
+   height: 100%;
+   width: 100%;
+    
    }
+   .navbar{
+  background-color: rgb(230, 194, 105);
+  color: white;
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+   }
+   .section{
+    display: flex;
+    color: white;
+   }
+   .subsection1{
+    display: flex;
+   }
+   #zoom{
+    color: blue;
+   }
+   #navbarButton{
+   border-radius: 10px;
+   padding:0px 10px ;
+   height: 28px;
+   margin-left: 100px;
+   color:  white;
+   background-color: rgb(28, 33, 107);
+   }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    width: 100%;
+    background-color: white;
+    
+  }
+  .row .col1{
+  align-items:center ;
+  justify-content: center;
+
+  }
+  .row .col1 .listbox {
+    color: white;
+    background-color: black;
+    width: auto;
+    height: auto;
+    font-family: sans-serif; 
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .col1 .listbox h3{
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .col1 ul{
+    justify-content: center;
+    align-items: center;
+   }
+   .col1 ul li{
+    margin-top: 15px;
+    justify-content: center;
+    text-align: justify;
+   }
+   .middleButton{
+    margin-top: 25px;
+    height: 30px;
+    width: auto;
+   font-size: 20px;
+   text-align: center;
+   background-color: rgb(230, 194, 105);
+   justify-content: center;
+   }
+   
+   .col1 ul {
+    list-style: none;
+  }
+  
+  .col1 ul li:before {
+    content: '✓';
+    color: rgb(207, 140, 57);
+  }
+  .col1 ul li{
+  white-space: 10px;
+    margin-left: 20px;
+  }
+  
+    .row .col2 img{
+      width: 480px;
+    /* display: flex; */
+    /* position: relative;
+    right: 0; */
+    float: right;
+    
+    }
+    #img-button{
+      margin-top: 25px;
+      height: 30px;
+     width: 200px;
+     font-size: 20px;
+     text-align: center;
+     background-color: rgb(28, 33, 107);
+     color: white;
+     justify-content: center;
+     margin-bottom: 10px;
+     }
+    #img-p{
+      font-size: 20px;
+      margin-bottom: 10px;
+     }
+
    .training-section{
      width: 100%;
+     height: 100%;
+     align-items: center;
+     justify-content: center;
+    
    }
    .training-section h1{
     text-align: center;
@@ -17,12 +134,17 @@
   }
   .hr{
     height: 8px;
+    margin: 20px 0px;
+    margin: 0px 20px;
     background: rgb(46, 12, 128);
     border-radius: 10px;
+    border: none;
+    margin-left: 20px;
     
     
   }
    .training-item i {
+  
     font-size: 50px;
     color: rgb(207, 140, 57);
    }
@@ -32,7 +154,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
    }
 .training-item{
   background-color: white;
@@ -56,12 +178,31 @@
   font-weight: 10;
 }
 .bluebox{
+  margin: 0px 10px;
+  background-color: rgb(10, 10, 104);
+  text-align: center;
+  justify-content: space-around;
   width: 100%;
   height: 100px;
-  background-color: blue;
-  margin-bottom: 50px;
-  
+  border: 2px solid white;
+ 
 }
+
+#button{
+  height: 30px;
+  width: 310px;
+ font-size: 20px;
+ text-align: center;
+ background-color: rgb(230, 194, 105);
+ justify-content: center;
+ margin-top: 30px;
+}
+    
+.footer{
+  color: white;
+}
+
+
 @media only screen and (min-width:200px) and (max-width:767px) {
   .container{
     width: 100%;
