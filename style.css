@@ -8,6 +8,11 @@
    width: 100%;
     
    }
+   .fistbox{
+    height: 400px;
+    width: auto;
+   }
+   
    .navbar{
   background-color: rgb(230, 194, 105);
   color: white;
@@ -17,12 +22,15 @@
   height: auto;
   padding: 10px 0px;
    }
-   .section{
-    display: flex;
+   
+   .section1{
+    justify-content: center;
     color: white;
    }
+   
    .subsection1{
     display: flex;
+
    }
    #zoom{
     color: blue;
@@ -38,14 +46,15 @@
   .row{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: space-evenly;
     width: 100%;
     background-color: white;
     
   }
-  .row .col1{
+  .col1{
   align-items:center ;
   justify-content: center;
+  margin-top: 30px;
 
   }
   .row .col1 .listbox {
@@ -61,6 +70,7 @@
   .col1 .listbox h3{
     align-items: center;
     justify-content: center;
+   padding-top: 20px
 
   }
   
@@ -96,13 +106,11 @@
     margin-left: 20px;
   }
   
-    .row .col2 img{
-      width: 480px;
-    /* display: flex; */
-    /* position: relative;
-    right: 0; */
-    float: right;
-    
+     .col2{
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+      
     }
     #img-button{
       margin-top: 25px;
@@ -112,13 +120,15 @@
      text-align: center;
      background-color: rgb(28, 33, 107);
      color: white;
-     justify-content: center;
+     
      margin-bottom: 10px;
      }
     #img-p{
       font-size: 20px;
       margin-bottom: 10px;
+      
      }
+     
 
    .training-section{
      width: 100%;
