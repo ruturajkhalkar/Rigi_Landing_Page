@@ -43,7 +43,14 @@
   height: auto;
   padding: 10px 0px;
    }
-   
+   #navbarButton{
+    border-radius: 10px;
+    padding:0px 10px ;
+    height: 28px;
+    margin-left: 100px;
+    color:  white;
+    background-color: rgb(28, 33, 107);
+    }
    .section1{
     padding: 20px 0px;
     font-size:xx-large;
@@ -259,7 +266,7 @@
     width: 100%;
     flex-direction:column;
   }
-  .training-item i{
+  .training-item {
     margin: 10px;
   }
 }
